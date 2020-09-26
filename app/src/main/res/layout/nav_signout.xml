@@ -3,7 +3,7 @@
     android:id="@+id/footer_text"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorAccent"
+    android:background="@drawable/gradient_color1"
     android:gravity="bottom"
     android:orientation="vertical"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
@@ -15,7 +15,6 @@
         android:layout_margin="10dp"
         android:drawableLeft="@drawable/ic_power_settings_new_black"
         android:drawablePadding="10dp"
-        android:gravity="center"
         android:paddingTop="8dp"
         android:text="LogOut"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"

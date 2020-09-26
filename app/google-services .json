@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "950248040602",
+    "firebase_url": "https://meatcorner-bab22.firebaseio.com",
+    "project_id": "meatcorner-bab22",
+    "storage_bucket": "meatcorner-bab22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950248040602:android:cfa66d90ef17ad6c88d723",
+        "android_client_info": {
+          "package_name": "com.example.meatcircle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950248040602-0a2cc7jkadn00asn1ab8utqdreadokrn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meatcircle",
+            "certificate_hash": "b3c029b13e9d96b260652fa74b0a999d94ae58a7"
+          }
+        },
+        {
+          "client_id": "950248040602-laplpbq2tsbl47odr8gprssfk7r74r16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkg5d8nPFlPciFFCgiD0Yk_gBZ9s3pslY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950248040602-laplpbq2tsbl47odr8gprssfk7r74r16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
