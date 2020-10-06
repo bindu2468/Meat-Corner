@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Specials"
+        android:textSize="20sp"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="5dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView">
+
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:background="@color/backgroundC">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.3">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="1dp">
+
+
+
+                        <TextView
+                            android:id="@+id/text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/goat"
+                            android:layout_marginStart="50dp"
+                            android:text="14"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/goat"
+                            android:layout_toEndOf="@id/text"
+                            android:text="$"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/goat"
+                            android:layout_toEndOf="@id/text1"
+                            android:text=" save"
+                            android:textColor="@color/agendacolor"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/text3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/goat"
+                            android:layout_toEndOf="@id/text2"
+                            android:text=" 15$"
+                            android:textColor="@color/agendacolor"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/text4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="Premium Tender Goat-Curry cut"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/goat"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/mutton1" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginEnd="230dp"
+                            android:src="@drawable/ic_right_scroll_arrow"
+                            android:visibility="invisible"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.3">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/text5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/poultry"
+                            android:layout_marginStart="30dp"
+                            android:text="30"
+                            android:textSize="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/text6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/poultry"
+                            android:layout_toEndOf="@id/text5"
+                            android:text="$"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/text7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/poultry"
+                            android:layout_toEndOf="@id/text6"
+                            android:text=" save"
+                            android:textColor="@color/agendacolor"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/text8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/poultry"
+                            android:layout_toEndOf="@id/text7"
+                            android:text=" 15$"
+                            android:textColor="@color/agendacolor"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/text9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text5"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="Premium Tender poultry-Curry cut"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/poultry"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="0dp"
+                            android:src="@drawable/chicken" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="100dp"
+                            android:layout_marginTop="60dp"
+                            android:src="@drawable/ic_left_scroll_arrow"
+                            android:visibility="invisible"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.3">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/text10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/seafood"
+                            android:layout_marginStart="50dp"
+                            android:text="30"
+                            android:textSize="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/text11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/seafood"
+                            android:layout_toEndOf="@id/text10"
+                            android:text="$"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/text12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/seafood"
+                            android:layout_toEndOf="@id/text11"
+                            android:text=" save"
+                            android:textColor="@color/agendacolor"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/text13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/seafood"
+                            android:layout_toEndOf="@id/text12"
+                            android:text=" 15$"
+                            android:textColor="@color/agendacolor"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/text14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text10"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="Premium Tender poultry-Curry cut"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/seafood"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="0dp"
+                            android:src="@drawable/fish" />
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

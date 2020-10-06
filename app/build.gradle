@@ -1,6 +1,10 @@
 apply plugin: 'com.android.application'
 
 
+//firebase
+apply plugin: 'com.google.gms.google-services'
+
+
 android {
     compileSdkVersion 29
     buildToolsVersion "30.0.1"
@@ -25,6 +29,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
@@ -38,9 +43,8 @@ dependencies {
     //Firebase google analytics
     implementation 'com.google.firebase:firebase-analytics:17.5.0'
 
-
-    //firebase Database
-    implementation 'com.google.firebase:firebase-database:19.3.1'
+    // Firebase database
+    implementation 'com.google.firebase:firebase-database:19.4.0'
 
 
     // implementation "com.airbnb.android:lottie:3.4.0"
@@ -56,5 +60,3 @@ dependencies {
 
 
 }
-//firebase
-apply plugin: 'com.google.gms.google-services'

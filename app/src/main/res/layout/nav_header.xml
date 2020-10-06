@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/gradient_color1"
-    android:gravity="left|bottom"
+    android:gravity="bottom"
     android:orientation="vertical"
-    android:paddingLeft="5dp"
+    android:paddingStart="5dp"
     android:paddingTop="10dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
@@ -15,7 +15,6 @@
         android:layout_width="80dp"
         android:layout_height="60dp"
         android:src="@drawable/logo"
-        android:layout_centerVertical="true"
         app:civ_border_color="@color/Black"
         app:civ_border_width="0.5dp" />
 

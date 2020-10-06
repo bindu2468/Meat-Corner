@@ -64,6 +64,14 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        login_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }

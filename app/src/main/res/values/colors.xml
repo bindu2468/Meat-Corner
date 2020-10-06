@@ -7,14 +7,15 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="Black">#000000</color>
     <color name="Yellow">#FFC950</color>
-    <color name="agendacolor">#8E9097</color>
-    <color name="color">#767578</color>
-    <color name="grey">#3E767578</color>
+    <color name="agendacolor">#B71D1E1F</color>
+    <color name="color">#737381</color>
+    <color name="grey">#A6222022</color>
 
     <color name="next">#0288C5</color>
-
-
     <color name="gradient_start_color">#4c84ff</color>
+    <color name="backgroundA">#F8ECD0DA</color>
+    <color name="backgroundB">#C8E0C9</color>
+    <color name="backgroundC">#D8CFE7</color>
 
 
 </resources>
